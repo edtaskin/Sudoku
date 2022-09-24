@@ -1,0 +1,43 @@
+.game-grid{
+	-fx-background-color: white;
+	-fx-padding: 10;
+}
+.game-grid-cell{
+	-fx-background-color: black, white;
+	-fx-background-insets: 0, 0;
+}
+
+.game-grid-cell.first-row{
+	-fx-background-insets: 0, 1 0 0 0;
+}
+
+.game-grid-cell.first-column{
+	-fx-background-insets: 0, 0 0 0 1;
+}
+
+.game-grid-cell.first-row.first-column{
+	-fx-background-insets: 0, 1 0 0 1;
+}
+
+.game-grid-cell.first-row.third-column{
+	-fx-background-insets: 0, 1 0 0 0;
+}
+
+.game-grid-cell.highlighted{
+	-fx-background-color: black, #00CED1;
+	-fx-background-insets: 0, 1 1 1 1;
+}
+
+.game-grid-cell.selected{
+	-fx-background-color: black, #00FFFF;
+	-fx-background-insets: 0, 1 1 1 1;
+}
+
+.number-label{
+	-fx-text-fill: black;
+	-fx-font-size: 30;
+}
+
+.number-label.user-placed{
+	-fx-text-fill: blue;
+}

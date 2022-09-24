@@ -1,0 +1,5 @@
+HOW TO PLAY?
+- Sudoku is played on a 9x9 board consisting of 9 3x3 boxes.
+- Some cells on the board are filled with numbers from 1 to 9.
+- Your goal is to fill all the empty cells so that all rows, columns and 3x3 boxes are filled with numbers from 1 to 9, where each number is used only once in that row/column/3x3 box.
+- Keep in mind that Sudoku boards have only 1 solution.
